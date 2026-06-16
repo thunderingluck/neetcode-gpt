@@ -13,7 +13,7 @@ class Solution:
         # Sigmoid: σ(z) = 1 / (1 + exp(-z))
         # ReLU: max(0, z)
         # return round(your_answer, 5)
-        # print(np.shape(x), np.shape(w))
+        print(np.shape(x), np.shape(w))
         z = np.dot(x, w) + b 
         # print(np.shape(z))
         if activation == "sigmoid":
