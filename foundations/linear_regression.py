@@ -15,3 +15,4 @@ class Solution:
         n = np.shape(model_prediction)[0]
         mse = (1/n) * np.sum((model_prediction - ground_truth) ** 2)
         return round(mse, 5)
+        # for future: mse = np.mean((model_prediction - ground_truth) ** 2) is cleaner
